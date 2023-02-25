@@ -17,3 +17,4 @@ yarn build
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+Vue3 draft for use projects
