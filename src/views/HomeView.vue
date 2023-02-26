@@ -11,7 +11,7 @@
           <Btn route="/" link="Explore" btn="home__btn"/>
         </div>
         <div class="home__right">
-          <!-- <img class="home__img" src="@/assets/images/image 15.png" alt="travel"> -->
+          <img class="home__img" src="@/assets/images/thousand1.png" alt="travel">
         </div>
       </div>
     </div>
@@ -80,7 +80,14 @@ export default {
   }
   &__left,
   &__right{
-    @include col(6)
+    @include col(6);
+    @include col-lg(8);
+  }
+  @media (max-width:992px){
+    .row {
+      justify-content: center;
+      gap: 30px;
+    }
   }
 }
 
