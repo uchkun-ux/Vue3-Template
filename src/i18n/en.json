@@ -1,0 +1,13 @@
+{
+    "title": "Explore and Travel",
+    "text": "Holiday finder",
+    "placeholders": {
+        "username": "Username",
+        "password": "Password"
+    },
+    "forgot": "Forgot password",
+    "checkbox": "Remember me",
+    "buttons": {
+        "login": "Login"
+    }
+}

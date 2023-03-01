@@ -1,0 +1,13 @@
+{
+    "title": "Sayoxat qil ",
+    "text": "Mamlakat",
+    "placeholders": {
+        "username": "Foydalanuvchi nomi",
+        "password": "Kalit so`z"
+    },
+    "forgot": "Esdan chiqdimi?",
+    "checkbox": "Eslab qolish",
+    "buttons": {
+        "login": "Kirish"
+    }
+}

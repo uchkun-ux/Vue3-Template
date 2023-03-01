@@ -5,6 +5,15 @@
         <div class="home__left">
           <h1 class="home__title">Explore and Travel</h1>
           <p1 class="home__text">Holiday finder</p1>
+          <select class="select__day">
+          <option v-for="(key,i) in list" :key="i">{{ key }}</option>
+          </select>
+          <select class="select">
+          <option v-for="(key,i) in list" :key="i">{{ key }}</option>
+          </select>
+          <select class="select">
+          <option v-for="(key,i) in list" :key="i">{{ key }}</option>
+          </select>
           <select class="select">
           <option v-for="(key,i) in list" :key="i">{{ key }}</option>
           </select>
@@ -49,7 +58,8 @@ export default {
     color: #202336;
     margin: 50px 0;
   }
-  .select {
+  .select,
+  .select__day {
     border: 0.8px solid #afb0b9;
     box-sizing: border-box;
     border-radius: 6px;
@@ -76,7 +86,9 @@ export default {
   }
   .home__left {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+
   }
   &__left,
   &__right{
