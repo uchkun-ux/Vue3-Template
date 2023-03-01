@@ -6,7 +6,7 @@
             </router-link>
             <ul class="nav__list">
                 <li><router-link to="/">Home</router-link></li>
-                <li><router-link to="/dest">Destinations</router-link></li>
+                <li><router-link to="/dest">Stories</router-link></li>
                 <li><router-link to="/about">About</router-link></li>
                 <li><router-link to="/partners">Partner</router-link></li>
                 <li><Btn route="/login" link="Login" btn="login" /></li>

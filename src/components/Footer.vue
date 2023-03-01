@@ -11,7 +11,8 @@
                 information from us
                 </p>
                 <p class="footer-info__left__rights">
-                ©2020 Thousand Sunny. All rights reserved
+                <!-- ©2020 Thousand Sunny. -->
+            <span>All rights reserved</span>
                 </p>
             </div>
             <div class="footer-info__right">

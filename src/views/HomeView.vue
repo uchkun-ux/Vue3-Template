@@ -20,11 +20,25 @@
           <Btn route="/" link="Explore" btn="home__btn"/>
         </div>
         <div class="home__right">
-          <img class="home__img" src="@/assets/images/thousand1.png" alt="travel">
+          <img class="home__img" src="@/assets/images/thousand1.png" alt="travel1">
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="row"> 
+        <div class="home__left">
+          <img class="home__img" src="@/assets/images/Thousand3.png" alt="travel">
+          <Btn route="/" link="Explore" btn="home__btn"/>
+        </div>
+        <div class="home__right">
+          <h1 class="home__title">A new way to explore the world </h1>
+          <p1 class="home__text">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
+trip, but now, they can also let Lonely Planet Experiences lead the way</p1>
         </div>
       </div>
     </div>
   </div>
+  <br>
 
 </template>
 
