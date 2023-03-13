@@ -3,47 +3,26 @@
     <div class="container">
       <div class="row"> 
         <div class="home__left">
-          <h1 class="home__title">Explore and Travel</h1>
-          <p1 class="home__text">Holiday finder</p1>
-          <select class="select__day">
-          <option v-for="(key,i) in list" :key="i">{{ key }}</option>
-          </select>
+          <h1 class="home__title">{{$t('title') }}</h1>
+          <p1 class="home__text">{{$t('text') }}</p1>
           <select class="select">
           <option v-for="(key,i) in list" :key="i">{{ key }}</option>
           </select>
-          <select class="select">
-          <option v-for="(key,i) in list" :key="i">{{ key }}</option>
-          </select>
-          <select class="select">
-          <option v-for="(key,i) in list" :key="i">{{ key }}</option>
-          </select>
-          <Btn route="/" link="Explore" btn="home__btn"/>
+          <Btn route="/" link="login" btn="home__btn"/>
         </div>
         <div class="home__right">
-          <img class="home__img" src="@/assets/images/thousand1.png" alt="travel1">
-        </div>
-      </div>
-      <br>
-      <br>
-      <div class="row"> 
-        <div class="home__left">
-          <img class="home__img" src="@/assets/images/Thousand3.png" alt="travel">
-          <Btn route="/" link="Explore" btn="home__btn"/>
-        </div>
-        <div class="home__right">
-          <h1 class="home__title">A new way to explore the world </h1>
-          <p1 class="home__text">For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect 
-trip, but now, they can also let Lonely Planet Experiences lead the way</p1>
+          <img class="home__img" src="@/assets/images/thousand1.png" alt="travel">
         </div>
       </div>
     </div>
   </div>
-  <br>
 
 </template>
 
 <script>
 import Btn from '@/components/Btn.vue';
+// import { useI18n } from 'vue-i18n';
+// const {t} = useI18n()
 export default {
   components:{Btn},
   data(){
@@ -72,8 +51,7 @@ export default {
     color: #202336;
     margin: 50px 0;
   }
-  .select,
-  .select__day {
+  .select {
     border: 0.8px solid #afb0b9;
     box-sizing: border-box;
     border-radius: 6px;
@@ -100,9 +78,7 @@ export default {
   }
   .home__left {
   display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-
+  flex-direction: column;
   }
   &__left,
   &__right{
