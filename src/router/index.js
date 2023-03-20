@@ -7,11 +7,6 @@ import VueRouter from "vue-router";
 Vue.use(VueRouter);
 
 const routes = [
-  // {
-  //   path: "/",
-  //   name: "StartHere",
-  //   component: StartHere,
-  // },
   {
     path: '/',
     name: 'home',
@@ -34,7 +29,18 @@ const routes = [
     path: '/dest',
     name: 'dest',
     component: () => import('../views/Destination.vue')
-  }
+  },
+  {
+    path: '/login',
+    name: 'login',
+    component: () => import('../views/Login.vue')
+  },
+  {
+    path: '/register',
+    name: 'register',
+    component: () => import('../views/Register.vue')
+  },
+
 ];
 
 const router = new VueRouter({

@@ -9,8 +9,9 @@
                 <li><router-link to="/dest">{{ $t("nav_dest") }}</router-link></li>
                 <li><router-link to="/about">{{ $t("nav_about") }}</router-link></li>
                 <li><router-link to="/partners">{{ $t("nav_part") }}</router-link></li>
-                <li><Btn route="/login" link="Login" btn="login" /></li>
-                <li><Btn route="/reg" link="Register" btn="login"/></li>
+                <li><router-link to="/login"><Btn route="/login" link="Login" btn="login" /></router-link></li>
+                <li><router-link to="/register"><Btn route="/register" link="Register" btn="login" /></router-link></li>
+                
             
                 
             </ul>

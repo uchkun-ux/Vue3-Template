@@ -12,12 +12,17 @@
 import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 import Nav from '@/components/Nav.vue';
 import Footer from '@/components/Footer.vue';
+import Login from '@/views/Login.vue';
+import Register from '@/views/Register.vue';
+
 
 export default {
   components: {
     LanguageSwitcher,
     Nav,
-    Footer
+    Footer,
+    Login,
+    Register
   }
 }
 
