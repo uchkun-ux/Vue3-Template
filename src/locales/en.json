@@ -1,7 +1,10 @@
 {
   "message": "ENGLISH MODE!",
   "about": "About our company",
-  
+  "nav_home": "Home",
+  "nav_dest": "Destinations",
+  "nav_about": "About",
+  "nav_part": "Partners",
   
   "title": "Explore and travel"
 }

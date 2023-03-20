@@ -4,7 +4,7 @@
       <div class="row"> 
         <div class="home__left">
           <h1 class="home__title">{{$t('title') }}</h1>
-          <p1 class="home__text">{{$t('text') }}</p1>
+          <p class="home__text">{{$t('text') }}</p>
           <select class="select">
           <option v-for="(key,i) in list" :key="i">{{ key }}</option>
           </select>

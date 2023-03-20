@@ -2,7 +2,7 @@
   <div id="app">
     <Nav/>
     <router-view />
-    
+    <Footer/>
     <!-- Custom language switcher -->
     <LanguageSwitcher />
   </div>
@@ -11,11 +11,13 @@
 <script>
 import LanguageSwitcher from "@/components/LanguageSwitcher.vue";
 import Nav from '@/components/Nav.vue';
+import Footer from '@/components/Footer.vue';
 
 export default {
   components: {
     LanguageSwitcher,
-    Nav
+    Nav,
+    Footer
   }
 }
 

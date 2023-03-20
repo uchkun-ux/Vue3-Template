@@ -1,5 +1,9 @@
 {
   "message": "uzbek mode!",
   "title": "Саёхат кил ва кур ",
+  "nav_home": "Asosiy",
+  "nav_dest": "Qiziqarli",
+  "nav_about": "Biz haqimizda",
+  "nav_part": "Hamkorlarimiz",
   "about": "Биз билан саёхат кил"
 }

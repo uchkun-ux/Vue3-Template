@@ -1,17 +1,19 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import StartHere from "@/views/StartHere.vue";
+// import StartHere from "@/views/StartHere.vue";
+// import HomeView from "@/views/HomeView.vue";
+
 
 Vue.use(VueRouter);
 
 const routes = [
+  // {
+  //   path: "/",
+  //   name: "StartHere",
+  //   component: StartHere,
+  // },
   {
-    path: "/",
-    name: "StartHere",
-    component: StartHere,
-  },
-  {
-    path: '/home',
+    path: '/',
     name: 'home',
     component: () => import('../views/HomeView.vue')
   },

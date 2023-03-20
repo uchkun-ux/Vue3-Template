@@ -68,7 +68,7 @@ export default {
           shortName: "uz",
           longName: "Uzbek",
           localName: "o`zbekcha",
-          flag: "/flag_ru.svg"
+          flag: "/flag_uz.svg"
         }
         // {
         //   shortName: "de",
